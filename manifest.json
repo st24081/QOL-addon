@@ -1,0 +1,26 @@
+{
+    "format_version" : 2,
+    "header" : {
+        "name" : "ほんの少しQOLがあがるかも",
+        "description" : "タイトルに同じ、アイコンとかねえ、後からなんか追加するかも",
+        "uuid" :"334ed01e-7cf7-4d8e-ae42-6e87ff630f96",
+        "version" : [0,1,0],
+             "min_engine_version" : [1,20,0]
+    },
+    "modules" : [
+        {
+            "type" : "script",
+            "language" : "Javascript",
+            "uuid": "627361fe-abcb-41e8-ac03-1ee55e8480f7",
+            "entry": "scripts/main.js",
+            "version" : [0,1,0]
+        }
+    ],
+    "capabilities" : ["script_eval"],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.10.0"
+        }
+    ]
+}
